@@ -33,17 +33,33 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "5.3.5",
-    "siteFonts": [],
+    "siteFonts": [
+      {
+        "css": "'Jost', sans-serif",
+        "name": "Jost",
+        "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      }
+    ],
     "publishChangesOnly": true,
     "uniqCompNum": 1,
-    "versionPublish": "5.3.5"
+    "versionPublish": "5.3.5",
+    "imageResize": true,
+    "favicon": "@PROJECT_PATH@/assets/images/1301tactical-listing001-128x63.png",
+    "mbrsiteDomain": "cy9pnjqjt0",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "pwa-switcher": false
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "Karen's SHOOT OFF!: Home",
+        "meta_descr": "Karen's SHOOT OFF!",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -124,13 +140,13 @@
           },
           "_name": "header17",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"header17\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Video PopUp\" name=\"showVideoPopUp\" checked>\n        <input type=\"text\" title=\"Modal Video\" name=\"modalVideo\" value=\"https://youtu.be/cXQGIqfNo28\" condition=\"showVideoPopUp\">\n        <input type=\"color\" title=\"Color\" name=\"videoColor\" value=\"#6592e6\" condition=\"showVideoPopUp\">\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\" checked condition=\"showVideoPopUp\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input title=\"Image\" type=\"image\" value=\"@PROJECT_PATH@/assets/images/free-printable-shooting-targets-3.jpg\" parallax selected>\n            <input title=\"Color\" type=\"color\" value=\"#bed3f9\">\n            <input title=\"Video\" type=\"video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10\">\n                <h1 class=\"mbr-section-title mb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    <b>Karen's SHOOT OFF!</b></h1>\n                <p class=\"mbr-text mb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-media\"><b><i>Every Sunday - American Legion Post 250</i></b></p>\n                <div class=\"mbr-media mb-3 show-modal\" mbr-if=\"showVideoPopUp\" data-modal=\".modalWindow\">\n                    <div class=\"icon-wrapper\">\n                        <span mbr-icon class=\"mbr-iconfont mobi-mbri-play mobi-mbri\"></span>\n                    </div>\n                </div>\n                <p class=\"icon-description mb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showDescription && showVideoPopUp\" data-app-selector=\".icon-description\">10950 Dauphin Island Pkwy, Theodore, AL 36582\n<br>Hours: \n<br>Opens 10AM\n<br>Phone: (251) 973-1116</p>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showVideoPopUp\">\n        <div class=\"modalWindow\" style=\"display: none;\">\n            <div class=\"modalWindow-container\">\n                <div class=\"modalWindow-video-container\">\n                    <div class=\"modalWindow-video\">\n                        <iframe width=\"100%\" height=\"100%\" data-src=\"{{modalVideo}}\" frameborder=\"0\" allowfullscreen=\"1\"></iframe>\n                    </div>\n                    <a class=\"close\" role=\"button\" data-dismiss=\"modal\">\n                        <span aria-hidden=\"true\" class=\"mbr-iconfont mobi-mbri-close mobi-mbri closeModal\"></span>\n                        <span class=\"sr-only\">Close</span>\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header17\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Video PopUp\" name=\"showVideoPopUp\" checked>\n        <input type=\"text\" title=\"Modal Video\" name=\"modalVideo\" value=\"https://youtu.be/cXQGIqfNo28\" condition=\"showVideoPopUp\">\n        <input type=\"color\" title=\"Color\" name=\"videoColor\" value=\"#6592e6\" condition=\"showVideoPopUp\">\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\" checked condition=\"showVideoPopUp\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input title=\"Image\" type=\"image\" value=\"@PROJECT_PATH@/assets/images/free-printable-shooting-targets-3.jpg\" parallax selected>\n            <input title=\"Color\" type=\"color\" value=\"#bed3f9\">\n            <input title=\"Video\" type=\"video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10\">\n                <h1 class=\"mbr-section-title mb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    <b>Karen's SHOOT OFF!</b></h1>\n                <p class=\"mbr-text mb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-media\"><b><i>Every Sunday - American Legion Post 250</i></b></p>\n                <div class=\"mbr-media mb-3 show-modal\" mbr-if=\"showVideoPopUp\" data-modal=\".modalWindow\">\n                    <div class=\"icon-wrapper\">\n                        <span mbr-icon class=\"mbr-iconfont mobi-mbri-play mobi-mbri\"></span>\n                    </div>\n                </div>\n                <p class=\"icon-description mb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showDescription && showVideoPopUp\" data-app-selector=\".icon-description\">10950 Dauphin Island Pkwy, Theodore, AL 36582\n<br>Hours: \n<br>Opens 10AM\n<br>Phone: <a href=\"tel:(251) 973-1116\" class=\"text-primary\">(251) 973-1116</a></p>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showVideoPopUp\">\n        <div class=\"modalWindow\" style=\"display: none;\">\n            <div class=\"modalWindow-container\">\n                <div class=\"modalWindow-video-container\">\n                    <div class=\"modalWindow-video\">\n                        <iframe width=\"100%\" height=\"100%\" data-src=\"{{modalVideo}}\" frameborder=\"0\" allowfullscreen=\"1\"></iframe>\n                    </div>\n                    <a class=\"close\" role=\"button\" data-dismiss=\"modal\">\n                        <span aria-hidden=\"true\" class=\"mbr-iconfont mobi-mbri-close mobi-mbri closeModal\"></span>\n                        <span class=\"sr-only\">Close</span>\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sxRJH2Oe0i",
+          "_anchor": "header17-0",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header17-0"
+          "_params": {}
         }
       ]
     }
