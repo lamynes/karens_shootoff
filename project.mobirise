@@ -993,7 +993,7 @@
         "title": "Karen's SHOOT OFF!: STATS",
         "order": 2,
         "meta_descr": "Karen's Shoot Off STATS",
-        "header_custom": "<script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>\n\n<script type='text/javascript'>    \n  var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSaxmrVtq4LafUiL9Xo0PoGfSphLAK7FzTMsc887KIIef0krOONyzJfnrMStFbLG2jQ7C6oTnRdBa_o/pubhtml?gid=798520710&single=true';\n\n  function init() {\n    Tabletop.init( {\n      key: publicSpreadsheetUrl,\n      callback: showInfo,\n      simpleSheet: true \n    } )\n  }\n\n  function showInfo(data, tabletop) {\n    alert('Successfully processed!')\n    console.log(data);\n  }\n\n  window.addEventListener('DOMContentLoaded', init)\n</script>",
+        "header_custom": "",
         "footer_custom": ""
       },
       "components": [
