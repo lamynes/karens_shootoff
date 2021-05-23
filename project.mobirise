@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "[post250_shootoff",
-    "currentPage": "index.html",
+    "currentPage": "shoot_off_stats.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -45,7 +45,7 @@
     "versionPublish": "5.3.5",
     "imageResize": true,
     "favicon": "@PROJECT_PATH@/assets/images/1301tactical-listing001-128x63.png",
-    "mbrsiteDomain": "wrsrrc5exl",
+    "mbrsiteDomain": "pke7q0hbkq",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
@@ -561,7 +561,7 @@
       "settings": {
         "title": "Shoot Off Stats",
         "order": 1,
-        "meta_descr": "Karen's Shoot Off STATS",
+        "meta_descr": "Post 250 Shoot Off STATS",
         "meta_image": "@PROJECT_PATH@/assets/images/free-printable-shooting-targets%20(2)-1920x1894.png"
       },
       "components": [
